@@ -1,0 +1,45 @@
+﻿<Window x:Class="EL_SigthClient.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EL_SigthClient.View"
+        xmlns:VM="clr-namespace:EL_SigthClient.ViewModel"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="400" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <VM:LoginViewModel></VM:LoginViewModel>
+    </Window.DataContext>
+    <Grid Name="Main_Layout">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="70*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Name="Top_Layout" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"></RowDefinition>
+                <RowDefinition Height="50*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Name="FirstHeader" Grid.Row="0" Content="{Binding Path=MainTitle}" FontWeight="Bold" FontStyle="Italic" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{Binding Path=MainForegroundColor}"></Label>
+            <Label Name="SecondHeader" Grid.Row="1" Content="{Binding Path=LoginTitle}" FontWeight="Bold" FontStyle="Italic" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{Binding Path=MainForegroundColor}"></Label>
+        </Grid>
+        <Grid Name ="Midlle_Layout" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"></RowDefinition>
+                <RowDefinition Height="50*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Name="UserNamelbl" Content="{Binding Path=UserNameLBL}" Grid.Row="0" Grid.Column="0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+            <TextBox Name="UserNametxt" Text="{Binding Path=UserName}" Grid.Row="0" Grid.Column="1" Margin="10,0,10,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"></TextBox>
+            <Label Name="Passwordlbl" Content="{Binding Path=PasswordLBL}" Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+            <PasswordBox Name="Passwordtxt" Grid.Row="1" Grid.Column="1" Margin="10,0,10,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"></PasswordBox>
+        </Grid>
+        <Grid Name="Bottom_Layout" Grid.Row="2">
+            <Button Name="Connectbtn" Command="{Binding Path=ConnectCommand}" CommandParameter="{Binding ElementName=Passwordtxt}" Content="{Binding Path=ConnectBtnContent}" FontWeight="Bold" FontStyle="Italic" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{Binding Path=MainForegroundColor}"></Button>
+        </Grid>
+    </Grid>
+</Window>

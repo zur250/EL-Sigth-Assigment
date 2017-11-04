@@ -1,0 +1,10 @@
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthHost.exe.config
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthHost.exe
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthHost.pdb
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthServer.dll
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthServer.pdb
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\bin\Debug\EL-SigthServer.dll.config
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\obj\Debug\EL-SigthHost.csprojResolveAssemblyReference.cache
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\obj\Debug\EL-SigthHost.csproj.CoreCompileInputs.cache
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\obj\Debug\EL-SigthHost.exe
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthHost\obj\Debug\EL-SigthHost.pdb

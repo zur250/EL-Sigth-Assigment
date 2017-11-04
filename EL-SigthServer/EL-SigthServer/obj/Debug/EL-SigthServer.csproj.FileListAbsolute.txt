@@ -1,0 +1,6 @@
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\bin\EL-SigthServer.dll.config
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\bin\EL-SigthServer.dll
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\bin\EL-SigthServer.pdb
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\obj\Debug\EL-SigthServer.csproj.CoreCompileInputs.cache
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\obj\Debug\EL-SigthServer.dll
+C:\Users\Zur\documents\visual studio 2017\Projects\EL-SigthServer\EL-SigthServer\obj\Debug\EL-SigthServer.pdb
